@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+  display: block;
+}
+
+.header__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  max-width: 709px;
+  margin-top: 183px;
+  margin-bottom: 28px;
+}
+
+.header__description {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  max-width: 683px;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  right: 5px;
+  top: 124px;
+}
+
+.header__footer {
+  color: #838383;
+  margin-top: auto;
+
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+.header__footer-list {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 80px;
+  padding-left: 0;
+}
+
+.header__paragraph {
+  margin-top: 0px;
+  margin-right: 80px;
+}
